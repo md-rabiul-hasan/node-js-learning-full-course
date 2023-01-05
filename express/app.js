@@ -9,7 +9,7 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: false }))
 
 
-app.use(adminRouter);
+app.use('/admins', adminRouter);
 app.use(clientRouter);
 
 // 404
