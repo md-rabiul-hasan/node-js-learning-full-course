@@ -12,6 +12,11 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(adminRouter);
 app.use(clientRouter);
 
+// 404
+app.use((req, res, next) => {
+    res.status(404).send("<p>Page not found</p>");
+})
+
 
 const server = http.createServer(app);
 
