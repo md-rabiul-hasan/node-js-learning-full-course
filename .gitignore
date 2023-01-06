@@ -1,2 +1,3 @@
 express/node_modules
 template-engine/pug/node_modules
+template-engine/ejs/node_modules
