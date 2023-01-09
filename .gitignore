@@ -3,3 +3,4 @@ template-engine/pug/node_modules
 template-engine/ejs/node_modules
 mvc/node_modules
 enhancing-application/node_modules
+dynamic-routing-and-advanced-model/node_modules
